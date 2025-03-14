@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: plan_writer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\feige\LOCALS~1\Temp\RSP216.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "PLAN_WRITER_EXPORTS" /D "ACE_LACKS_IOSTREAM_TOTALLY" /Fp"Debug/plan_writer.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\project\ERP\code\src\plan_writer\plan_writer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\feige\LOCALS~1\Temp\RSP216.tmp" 
+Creating command line "link.exe toold.lib config_loaderd.lib /nologo /dll /incremental:yes /pdb:"Debug/plan_writerd.pdb" /debug /machine:I386 /out:"../../output/plan_writerd.dll" /implib:"Debug/plan_writerd.lib" /pdbtype:sept  .\Debug\plan_writer.obj "
+<h3>Output Window</h3>
+Compiling...
+plan_writer.cpp
+Linking...
+   Creating library Debug/plan_writerd.lib and object Debug/plan_writerd.exp
+
+
+
+<h3>Results</h3>
+plan_writerd.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

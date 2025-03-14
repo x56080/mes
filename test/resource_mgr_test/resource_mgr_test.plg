@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: plan_writer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\feige\LOCALS~1\Temp\RSPCE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "PLAN_WRITER_EXPORTS" /D "ACE_LACKS_IOSTREAM_TOTALLY" /Fp"Debug/plan_writer.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\project\ERP\code\src\plan_writer\plan_writer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\feige\LOCALS~1\Temp\RSPCE.tmp" 
+Creating temporary file "C:\DOCUME~1\feige\LOCALS~1\Temp\RSPCF.tmp" with contents
+[
+toold.lib config_loaderd.lib /nologo /dll /incremental:yes /pdb:"Debug/plan_writerd.pdb" /debug /machine:I386 /out:"../../output/plan_writerd.dll" /implib:"../../output/plan_writerd.lib" /pdbtype:sept 
+.\Debug\plan_writer.obj
+\project\ERP\code\output\config_loaderd.lib
+\project\ERP\code\output\toold.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\feige\LOCALS~1\Temp\RSPCF.tmp"
+<h3>Output Window</h3>
+Compiling...
+plan_writer.cpp
+Linking...
+<h3>
+--------------------Configuration: resource_mgr_test - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+
+
+
+<h3>Results</h3>
+resource_mgr_testd.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
